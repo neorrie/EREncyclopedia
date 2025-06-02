@@ -1,0 +1,84 @@
+:root {
+  --font-size-xl: 3rem;
+  --font-size-lg: 2rem;
+  --font-size-md: 1.5rem;
+  --font-size-sm: 1rem;
+  --font-main: "Mantinia", sans-serif;
+}
+
+body {
+  background-color: rgb(39 39 42);
+  background-image: url("../assets/images/melania.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: rgb(228 228 231);
+  height: 100dvh;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  font-family: var(--font-main);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+  animation-name: load;
+  animation-duration: 1.5s;
+}
+
+h1 {
+  margin: 0.5rem 0;
+  font-size: var(--font-size-lg);
+  color: #b49359;
+  text-shadow: 1px 1px #8c6b30;
+  text-align: center;
+}
+
+p {
+  font-size: var(--font-size-sm);
+  margin: 1rem 0;
+  text-align: center;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.landing-line {
+  max-width: 8%;
+  margin: 0 0.5rem;
+}
+
+button {
+  font-family: var(--font);
+  color: rgb(228 228 231);
+  padding: 0.5rem 2rem;
+  border-radius: 0.7rem;
+  border: 0;
+  background-color: #b49359;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: #5e4824;
+  transition: all 250ms ease-in-out;
+}
+
+.landing-logo {
+  margin: 1rem 0;
+  width: 10%;
+}
+
+@keyframes load {
+  0% {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+  100% {
+    opacity: 100;
+    transform: translateY(0);
+  }
+}

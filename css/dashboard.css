@@ -1,0 +1,9 @@
+:root {
+  --font-size-xl: 3rem;
+  --font-size-lg: 2rem;
+  --font-size-md: 1.5rem;
+  --font-size-sm: 1rem;
+  --font: "Mantinia", sans-serif;
+  --bg-color: rgb(39 39 42);
+  --font-color: rgb(228 228 231);
+}
