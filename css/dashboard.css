@@ -3,6 +3,7 @@
   --font-size-lg: 2rem;
   --font-size-md: 1.5rem;
   --font-size-sm: 1rem;
+  --font-size-xs: 0.75rem;
   --bg-color: rgb(0, 0, 0);
   --font-color: oklch(92% 0.004 286.32);
 }
@@ -52,7 +53,7 @@ h1 {
   max-width: 32px;
   max-height: 32px;
 }
-/* -------------------------------MAIN BODY SECTION------------------------------- */
+/* -------------------------------OVERVIEW SECTION------------------------------- */
 
 .container {
   display: grid;
@@ -87,4 +88,18 @@ h1 {
 .listing {
   display: flex;
   justify-content: space-between;
+  font-size: var(--font-size-xs);
+  color: oklch(55.2% 0.016 285.938);
 }
+
+.listing div {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.icon-section {
+  padding: 2rem 4rem;
+}
+
+/* -------------------------------LORE SECTION------------------------------- */
