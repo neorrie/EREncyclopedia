@@ -1,0 +1,65 @@
+@font-face {
+  font-family: inter;
+  src: url("/assets/fonts/inter.ttf");
+}
+
+body {
+  min-height: 100dvh;
+  background-color: #0a0a0a;
+  font-family: inter;
+  color: #e4e4e7;
+  margin: 0 15%;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.title img {
+  max-width: 1.5rem;
+}
+/*-------------------------MAIN CONTENT-------------------------*/
+/* may want to consider fixing the size of the boxes  */
+.main-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-areas:
+    "carousel carousel carousel"
+    "about about showcase"
+    "video video showcase"
+    "lore lore lore";
+  gap: 1rem;
+}
+
+.data-carousel {
+  grid-area: carousel;
+  border: 1px #3f3f46 solid;
+  background-color: #27272a;
+  border-radius: 0.5rem;
+  padding: 1rem;
+}
+
+.box {
+  border: 1px #3f3f46 solid;
+  background-color: #27272a;
+  border-radius: 0.5rem;
+  padding: 1rem;
+}
+
+.about-box {
+  grid-area: about;
+}
+
+.video-box {
+  grid-area: video;
+}
+
+.showcase-box {
+  grid-area: showcase;
+}
+
+.lore-box {
+  grid-area: lore;
+}
