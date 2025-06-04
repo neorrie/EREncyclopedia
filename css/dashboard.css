@@ -1,3 +1,11 @@
+:root {
+  --font-size-xl: 3rem;
+  --font-size-lg: 2rem;
+  --font-size-md: 1.5rem;
+  --font-size-sm: 1rem;
+  --font-size-xs: 0.6rem;
+}
+
 @font-face {
   font-family: inter;
   src: url("/assets/fonts/inter.ttf");
@@ -5,9 +13,22 @@
 
 body {
   min-height: 100dvh;
-  background-color: #0a0a0a;
+  background-color: #000000;
   font-family: inter;
-  color: #e4e4e7;
+  color: #d4d4d8;
+  margin: 0;
+  position: relative;
+}
+
+#bg-img {
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+
+  opacity: 0.4;
+}
+
+.main-container {
   margin: 0 15%;
 }
 
@@ -35,15 +56,51 @@ body {
 
 .data-carousel {
   grid-area: carousel;
-  border: 1px #3f3f46 solid;
-  background-color: #27272a;
+  border: 1px #27272a solid;
+  background-color: #18181b;
   border-radius: 0.5rem;
+  display: flex;
+  gap: 2rem;
   padding: 1rem;
+  overflow-x: auto;
+  scrollbar-width: thin;
+  scrollbar-color: #52525b #18181b;
+}
+
+.carousel-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5rem;
+}
+
+:hover.carousel-item {
+  cursor: pointer;
+  background-color: #18181b;
+  border-radius: 1rem;
+  transition: all 250ms ease-in-out;
+}
+
+.carousel-item img {
+  max-width: 2rem;
+  max-height: 2rem;
+}
+
+.carousel-item-title {
+  font-weight: bold;
+  margin: 0.25rem 0;
+}
+
+.carousel-item-count {
+  font-size: var(--font-size-xs);
+  color: #71717a;
+  margin: 0;
 }
 
 .box {
-  border: 1px #3f3f46 solid;
-  background-color: #27272a;
+  border: 1px #27272a solid;
+  background-color: #18181b;
   border-radius: 0.5rem;
   padding: 1rem;
 }
