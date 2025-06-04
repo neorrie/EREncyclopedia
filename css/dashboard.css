@@ -1,7 +1,7 @@
 :root {
   --font-size-xl: 3rem;
   --font-size-lg: 2rem;
-  --font-size-md: 1.5rem;
+  --font-size-md: 1.25rem;
   --font-size-sm: 1rem;
   --font-size-xs: 0.6rem;
 }
@@ -16,8 +16,8 @@ body {
   background-color: #000000;
   font-family: inter;
   color: #d4d4d8;
-  margin: 0;
   position: relative;
+  margin: 0;
 }
 
 #bg-img {
@@ -25,6 +25,10 @@ body {
   z-index: -1;
   width: 100%;
   opacity: 0.4;
+}
+
+h1 {
+  font-size: var(--font-size-xl);
 }
 
 .main-container {
@@ -93,7 +97,28 @@ body {
 }
 
 /*-----------ABOUT THE GAME SECTION-----------*/
-.about-box {
+.about-title {
+  margin-top: 3rem;
+  font-size: var(--font-size-lg);
+}
+
+.about-item {
   display: flex;
-  flex-direction: column;
+  gap: 2rem;
+  margin-bottom: 5rem;
+}
+
+.about-item video {
+  margin-top: 3rem;
+  min-width: 20rem;
+  max-width: 30rem;
+}
+
+.about-item-text h2 {
+  font-size: var(--font-size-md);
+  background-color: #b49359;
+  margin-left: -80px;
+  padding-left: 80px;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
 }
