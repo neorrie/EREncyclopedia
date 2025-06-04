@@ -48,6 +48,7 @@ body {
   gap: 1rem;
 }
 
+/*-----------ITEM CATEGORY SECTION-----------*/
 .category-slider {
   border: 1px #27272a solid;
   background-color: #18181b;
@@ -91,9 +92,8 @@ body {
   margin: 0;
 }
 
-.box {
-  border: 1px #27272a solid;
-  background-color: #18181b;
-  border-radius: 0.5rem;
-  padding: 1rem;
+/*-----------ABOUT THE GAME SECTION-----------*/
+.about-box {
+  display: flex;
+  flex-direction: column;
 }
