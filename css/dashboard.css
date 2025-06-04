@@ -52,6 +52,11 @@ h1 {
   gap: 1rem;
 }
 
+.divider {
+  margin: 2rem 0;
+  width: 100%;
+}
+
 /*-----------ITEM CATEGORY SECTION-----------*/
 .category-slider {
   border: 1px #27272a solid;
@@ -98,8 +103,8 @@ h1 {
 
 /*-----------ABOUT THE GAME SECTION-----------*/
 .about-title {
-  margin-top: 3rem;
   font-size: var(--font-size-lg);
+  margin-top: 0;
 }
 
 .about-item {
@@ -111,14 +116,17 @@ h1 {
 .about-item video {
   margin-top: 3rem;
   min-width: 20rem;
-  max-width: 30rem;
+}
+
+.about-item-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .about-item-text h2 {
   font-size: var(--font-size-md);
   background-color: #b49359;
-  margin-left: -80px;
-  padding-left: 80px;
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
+  border-radius: 0.3rem;
+  padding: 0.5rem;
 }
