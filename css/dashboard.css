@@ -24,7 +24,7 @@ body {
   position: absolute;
   z-index: -1;
   width: 100%;
-  opacity: 0.25;
+  opacity: 0.4;
 }
 
 .main-container {
@@ -76,7 +76,7 @@ body {
 
 :hover.carousel-item {
   cursor: pointer;
-  background-color: #18181b;
+  background-color: #09090b;
   border-radius: 1rem;
   transition: all 250ms ease-in-out;
 }
