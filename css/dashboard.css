@@ -20,11 +20,11 @@ body {
   margin: 0;
 }
 
-#bg-img {
+#bg-img-one {
   position: absolute;
   z-index: -1;
   width: 100%;
-  opacity: 0.4;
+  opacity: 0.1;
 }
 
 h1 {
@@ -129,4 +129,38 @@ h1 {
   background-color: #b49359;
   border-radius: 0.3rem;
   padding: 0.5rem;
+}
+/*-----------SHOWCASE SECTION-----------*/
+.showcase {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  margin: 3rem 0;
+}
+
+.showcase-title {
+  font-size: var(--font-size-lg);
+  color: #ceb07c;
+}
+
+.showcase img {
+  max-width: 120px;
+  margin: 1rem 0;
+}
+/*-----------WORLD SHOWCASE (images) SECTION-----------*/
+.world-showcase {
+  display: flex;
+  width: 100%;
+  gap: 1rem;
+}
+
+.world-showcase img {
+  max-width: 33%;
+  border-radius: 0.5rem;
+  transition: transform 0.3s ease;
+}
+
+.world-showcase img:hover {
+  transform: scale(1.3);
 }
