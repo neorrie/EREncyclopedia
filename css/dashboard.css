@@ -151,6 +151,7 @@ h1 {
 /*-----------WORLD SHOWCASE (images) SECTION-----------*/
 .world-showcase {
   display: flex;
+  justify-content: center;
   width: 100%;
   gap: 1rem;
 }
@@ -163,4 +164,31 @@ h1 {
 
 .world-showcase img:hover {
   transform: scale(1.3);
+}
+
+@media (max-width: 767px) {
+  h1 {
+    font-size: var(--font-size-lg);
+  }
+
+  .about-title {
+    text-align: center;
+    margin: 0;
+  }
+  .about-item {
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 2.5rem;
+  }
+  .about-item-text {
+    order: 1;
+  }
+  .about-item video {
+    order: 0;
+    min-width: 15rem;
+    margin-top: 1.5rem;
+  }
+  .showcase {
+    margin: 0;
+  }
 }
