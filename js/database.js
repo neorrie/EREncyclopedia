@@ -1,22 +1,48 @@
-const container = document.getElementById("main-content");
+const table = document.getElementById("data-table");
 
 const loadData = async (listTag) => {
   try {
     const name = listTag.innerText.toLowerCase();
-    // clears the content from the main-content div
-    container.innerHTML = "";
     const response = await axios.get(
-      `https://eldenring.fanapis.com/api/${name}?limit=600`
+      `https://eldenring.fanapis.com/api/${name}?limit=100`
     );
     const itemType = response.data.data;
-    const table = document.createElement("table");
-    table.className = "data-table";
-    itemType.forEach((item) => {
-      const card = document.createElement("div");
-      card.className = "item-card";
-      card.innerHTML = `<h2>${item.name}</h2>`;
-      container.appendChild(card);
-    });
+
+    if (itemType[0].description == null) {
+      // clears the content from the main-content div
+      table.innerHTML = `
+          <tr>
+            <th>Name</th>
+            <th>Image</th>
+          </tr>
+          `;
+      itemType.forEach((item) => {
+        const newItem = document.createElement("tr");
+        newItem.innerHTML = `
+      <td>${item.name}</td>
+      <td><img src="${item.image}"/></td>
+      `;
+        table.appendChild(newItem);
+      });
+    } else {
+      // clears the content from the main-content div
+      table.innerHTML = `
+          <tr>
+            <th>Name</th>
+            <th>Description</th>
+            <th>Image</th>
+          </tr>
+          `;
+      itemType.forEach((item) => {
+        const newItem = document.createElement("tr");
+        newItem.innerHTML = `
+      <td>${item.name}</td>
+      <td>${item.description}</td>
+      <td><img src="${item.image}"/></td>
+      `;
+        table.appendChild(newItem);
+      });
+    }
   } catch (error) {
     console.log(`Error fetching item: `, error);
   }

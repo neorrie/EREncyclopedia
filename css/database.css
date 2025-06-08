@@ -101,12 +101,24 @@ nav {
   gap: 1rem;
 }
 
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td,
+th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
 .item-card {
   width: 100%;
   background-color: #27272a;
 }
 
-.search-bar {
+/* .search-bar {
   background-color: #27272a;
   border-radius: 0.5rem;
   display: grid;
@@ -118,4 +130,4 @@ nav {
 .search-bar input {
   background-color: #27272a;
   border: 0;
-}
+} */
