@@ -70,6 +70,10 @@ h1 {
   scrollbar-color: #52525b #18181b;
 }
 
+.category-slider a {
+  all: unset;
+}
+
 .item {
   display: flex;
   flex-direction: column;
