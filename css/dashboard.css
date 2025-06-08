@@ -58,7 +58,7 @@ h1 {
 }
 
 /*-----------ITEM CATEGORY SECTION-----------*/
-.category-slider {
+#category-slider {
   border: 1px #27272a solid;
   background-color: #18181b;
   border-radius: 0.5rem;
@@ -70,7 +70,7 @@ h1 {
   scrollbar-color: #52525b #18181b;
 }
 
-.category-slider a {
+#category-slider a {
   all: unset;
 }
 
