@@ -36,10 +36,10 @@ const loadData = async (listTag) => {
       itemType.forEach((item) => {
         const newItem = document.createElement("tr");
         newItem.innerHTML = `
-      <td>${item.name}</td>
-      <td>${item.description}</td>
-      <td><img src="${item.image}"/></td>
-      `;
+        <td>${item.name}</td>
+        <td>${item.description}</td>
+        <td><img src="${item.image}"/></td>
+        `;
         table.appendChild(newItem);
       });
     }
@@ -49,6 +49,13 @@ const loadData = async (listTag) => {
 };
 
 const toggleSubMenu = (button) => {
+  const allLabels = document.querySelectorAll(".nav-category-label");
+
+  allLabels.forEach((label) => {
+    label.nextElementSibling.classList.remove("show");
+    label.querySelector("i").classList.remove("rotate");
+  });
+
   button.nextElementSibling.classList.toggle("show");
   button.querySelector("i").classList.toggle("rotate");
 };
