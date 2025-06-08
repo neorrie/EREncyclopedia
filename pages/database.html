@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.boxicons.com/fonts/basic/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="/css/database.css" />
+  </head>
+  <body>
+    <img id="bg-img-one" src="/assets/images/MENU_Load_00009.png" />
+    <div class="main-container">
+      <nav>
+        <h2>Contents</h2>
+        <div class="nav-category">
+          <div class="nav-category-label" onclick="toggleSubMenu(this)">
+            <div>
+              <img src="/assets/icons/npcIcon.png" alt="" />
+              <p>Character Database</p>
+            </div>
+            <i class="bxr bx-chevron-down"></i>
+          </div>
+          <ul class="sub-menu">
+            <li onclick="loadData(this)">Classes</li>
+            <li onclick="loadData(this)">NPCs</li>
+          </ul>
+        </div>
+        <div class="nav-category">
+          <div class="nav-category-label" onclick="toggleSubMenu(this)">
+            <div>
+              <img src="/assets/icons/bossesIcon.png" alt="" />
+              <p>Enemy Database</p>
+            </div>
+            <i class="bxr bx-chevron-down"></i>
+          </div>
+          <ul class="sub-menu">
+            <li onclick="loadData(this)">Bosses</li>
+            <li onclick="loadData(this)">Creatures</li>
+          </ul>
+        </div>
+        <div class="nav-category">
+          <div class="nav-category-label" onclick="toggleSubMenu(this)">
+            <div>
+              <img src="/assets/icons/weaponsIcon.png" alt="" />
+              <p>Equipment Database</p>
+            </div>
+            <i class="bxr bx-chevron-down"></i>
+          </div>
+          <ul class="sub-menu">
+            <li onclick="loadData(this)">Ammos</li>
+            <li onclick="loadData(this)">Armors</li>
+            <li onclick="loadData(this)">Shields</li>
+            <li onclick="loadData(this)">Weapons</li>
+            <li onclick="loadData(this)">Talismans</li>
+          </ul>
+        </div>
+        <div class="nav-category">
+          <div class="nav-category-label" onclick="toggleSubMenu(this)">
+            <div>
+              <img src="/assets/icons/itemsIcon.png" alt="" />
+              <p>Item Database</p>
+            </div>
+            <i class="bxr bx-chevron-down"></i>
+          </div>
+          <ul class="sub-menu">
+            <li onclick="loadData(this)">Ashes of War</li>
+            <li onclick="loadData(this)">Items</li>
+            <li onclick="loadData(this)">Incantations</li>
+            <li onclick="loadData(this)">Sorceries</li>
+            <li onclick="loadData(this)">Spirits</li>
+          </ul>
+        </div>
+      </nav>
+      <div class="main-content" id="main-content">
+        <!-- <div class="search-bar">
+          <i class="bx bx-search" style="justify-self: center"></i>
+          <input type="text" placeholder="Search by name..." />
+        </div> -->
+      </div>
+    </div>
+    <!-- axios script  -->
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="/js/database.js"></script>
+  </body>
+</html>
