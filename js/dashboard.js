@@ -18,7 +18,7 @@ const loadCategories = () => {
   const categorySlider = document.getElementById("category-slider");
   categoryList.forEach((category) => {
     const newCategory = document.createElement("a");
-    newCategory.setAttribute("href", "/pages/database.html");
+    newCategory.setAttribute("href", "/pages/classes.html");
     newCategory.innerHTML = `
         <div class="item">
             <img src="/assets/icons/${category.toLowerCase()}Icon.png" />
