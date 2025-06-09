@@ -36,7 +36,74 @@
         </li>
       </ul>
     </nav>
-    <div class="main-container"></div>
+    <div class="main-container">
+      <div class="description-box">
+        <h2>Overview of Arrows and Bolts (Ammunition)</h2>
+        <p>
+          Arrows and Bolts serve as ammunition for ranged weapons in Elden Ring,
+          such as bows, crossbows, and ballistae. Basic types like Beast Bone
+          Arrows and Bolts can be crafted, while special ammunition is typically
+          bought from merchants or found in limited quantities during
+          exploration.
+        </p>
+        <div class="description-box-detail">
+          <div class="detail-section">
+            <h3>How Damage and Scaling Work</h3>
+            <h4>Arrows</h4>
+            <p>
+              Arrows add to your bow's total Attack Rating (AR) by combining
+              their base values with the bow's. They do not scale independently,
+              but they do benefit from the bow's scaling stats.
+            </p>
+            <h4>Bolts and Ballistae</h4>
+            <p>
+              Bolts and ballistae do not scale with any stats. Their damage
+              remains fixed regardless of your character's build.
+            </p>
+          </div>
+          <div class="detail-section">
+            <h3>Scaling Breakdown by Damage Type</h3>
+            <ul>
+              <li>Physical AR → Scales with Strength and Dexterity</li>
+              <li>Lightning AR → Scales with Dexterity</li>
+              <li>
+                Magic AR → Scales with Intelligence (only on the Horn Bow)
+              </li>
+              <li>
+                Fire & Holy AR → Scale with Faith (only on the Erdtree Bow and
+                Erdtree Greatbow)
+              </li>
+              <li>
+                Status Effects (Bleed, Poison, Sleep) → Scale with Arcane (only
+                on the Serpent Bow)
+              </li>
+            </ul>
+            <h3>Crafting vs. Buying Ammo</h3>
+            <p>
+              For ranged builds, it's often more efficient to farm runes and
+              purchase ammunition from merchants than to gather materials for
+              crafting. A list of vendors who sell arrows and bolts can be found
+              below.
+            </p>
+          </div>
+        </div>
+      </div>
+      <img src="/assets/icons/elden-ring-border-leaf.png" class="divider" />
+
+      <table id="data-table">
+        <tr class="table-header">
+          <td>Name</td>
+          <td>Type</td>
+          <td>Physical</td>
+          <td style="color: rgb(76, 157, 211)">Magic</td>
+          <td style="color: rgb(228, 74, 74)">Fire</td>
+          <td style="color: rgb(231, 220, 115)">Lightning</td>
+          <td style="color: rgb(223, 179, 113)">Holy</td>
+          <td style="color: rgb(66, 189, 87)">Crit. Range</td>
+          <td>Passive</td>
+        </tr>
+      </table>
+    </div>
     <!-- axios script  -->
     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
     <script src="/js/categories/ammos.js"></script>
