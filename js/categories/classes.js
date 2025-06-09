@@ -12,7 +12,7 @@ const loadData = async () => {
       const newCard = document.createElement("div");
       newCard.classList.add("class-card");
       newCard.innerHTML = `
-          <p>${charClass.name}</p>
+          <p>${charClass.name.toUpperCase()}</p>
           <img src=${charClass.image} />
           <table>
             <tr>
@@ -33,7 +33,9 @@ const loadData = async () => {
             </tr>
             <tr>
               <td class="td-darker">Dexterity ${charClass.stats.dexterity}</td>
-              <td class="td-darker">Intelligence ${charClass.stats.intelligence}</td>
+              <td class="td-darker">Intelligence ${
+                charClass.stats.intelligence
+              }</td>
             </tr>
             <tr>
               <td>Faith ${charClass.stats.faith}</td>

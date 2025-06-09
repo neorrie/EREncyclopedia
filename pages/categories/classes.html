@@ -9,20 +9,36 @@
       rel="stylesheet"
     />
 
-    <link rel="stylesheet" href="/css/classes.css" />
+    <link rel="stylesheet" href="/css/categories/classes.css" />
   </head>
   <body>
     <img id="bg-img-one" src="/assets/images/MENU_Load_00009.png" />
     <nav>
-      <div class="nav-logo">
+      <a href="/pages/dashboard.html" class="nav-logo">
         <img src="/assets/icons/sword.png" alt="" srcset="" />
         <p>GraceKeeper</p>
-      </div>
+      </a>
       <ul>
-        <li>Characters</li>
-        <li>Enemies</li>
-        <li>Equipment</li>
-        <li>Items</li>
+        <li>
+          <img src="/assets/icons/characterIcon.png" />
+          Character
+          <i class="bx bx-chevron-down"></i>
+        </li>
+        <li>
+          <img src="/assets/icons/enemiesIcon.png" />
+          Enemies
+          <i class="bx bx-chevron-down"></i>
+        </li>
+        <li>
+          <img src="/assets/icons/equipmentIcon.png" />
+          Equipment
+          <i class="bx bx-chevron-down"></i>
+        </li>
+        <li>
+          <img src="/assets/icons/itemIcon.png" />
+          Items
+          <i class="bx bx-chevron-down"></i>
+        </li>
       </ul>
     </nav>
     <div class="main-container">
@@ -64,6 +80,23 @@
               class doesn’t lock you in—gear found along the way and stat
               upgrades from leveling can significantly alter how you fight.
             </p>
+            <h3>BUILD TIPS</h3>
+            <p>
+              As you explore Elden Ring, many players recommend trying out
+              beginner-friendly Builds tailored to specific Attributes or
+              playstyles. These pre-made setups are great for getting started,
+              offering balanced approaches for melee, hybrid, or magic-focused
+              characters. For example, the Vagabond offers high survivability
+              and is ideal for those who want to get up close in battle. The
+              Confessor provides a mix of melee and faith-based spells, perfect
+              for players interested in hybrid casting. The Samurai stands out
+              for its versatility and ranged options thanks to its Longbow,
+              while the Astrologer caters to those who prefer casting spells
+              from a distance. Players who enjoy fast-paced, aggressive combat
+              might gravitate towards dual-wielding classes like those with
+              curved swords. Whatever path you choose, don’t be afraid to tweak
+              your Build over time to better match your evolving playstyle.
+            </p>
           </div>
         </div>
       </div>
@@ -72,6 +105,6 @@
     </div>
     <!-- axios script  -->
     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
-    <script src="/js/classes.js"></script>
+    <script src="/js/categories/classes.js"></script>
   </body>
 </html>

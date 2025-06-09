@@ -49,14 +49,19 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1rem 1rem;
+  padding: 0rem 1rem;
   background-color: #18181b;
+}
+
+a {
+  all: unset;
 }
 
 .nav-logo {
   display: flex;
   align-items: center;
   gap: 0.3rem;
+  cursor: pointer;
 }
 
 .nav-logo p {
@@ -77,6 +82,24 @@ ul {
   padding: 0;
   margin: 0;
 }
+
+li {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 1rem 0.5rem;
+  cursor: pointer;
+}
+
+li:hover {
+  transition: all 250ms ease-in-out;
+  background-color: #000000;
+}
+
+li img {
+  max-width: 1.5rem;
+  max-height: 1.5rem;
+}
 /*-----------DESCRIPTION SECTION-----------*/
 .description-box {
   background-color: #18181b;
@@ -84,9 +107,12 @@ ul {
   border-radius: 0.5rem;
 }
 
+.description-box h2 {
+  margin-top: 0;
+}
+
 .description-box-detail {
   display: flex;
-  justify-content: center;
   gap: 2rem;
 }
 
