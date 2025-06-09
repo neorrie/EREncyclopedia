@@ -37,7 +37,10 @@ const loadCategories = async () => {
   // Append to DOM
   categoryData.forEach(({ category, entryCount }) => {
     const newCategory = document.createElement("a");
-    newCategory.setAttribute("href", "/pages/categories/classes.html");
+    newCategory.setAttribute(
+      "href",
+      `/pages/categories/${category.toLowerCase()}.html`
+    );
     newCategory.innerHTML = `
       <div class="item">
           <img src="/assets/icons/${category.toLowerCase()}Icon.png" />
