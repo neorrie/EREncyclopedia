@@ -154,6 +154,12 @@ ol li {
   background-color: #18181b;
 }
 
+.table-section-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .table-header {
   background-color: #484440;
 }
@@ -170,7 +176,7 @@ td {
 }
 
 td img {
-  max-width: 20rem;
+  max-width: 6rem;
 }
 
 .item-col-one {
