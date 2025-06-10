@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Creatures</title>
+    <link rel="stylesheet" href="/css/categories/creatures.css" />
+  </head>
+  <body>
+    <img id="bg-img-one" src="/assets/images/MENU_Load_00009.png" />
+    <nav>
+      <a href="/pages/dashboard.html" class="nav-logo">
+        <img src="/assets/icons/sword.png" alt="" srcset="" />
+        <p>GraceKeeper</p>
+      </a>
+      <ul>
+        <li>
+          <img src="/assets/icons/characterIcon.png" />
+          Character
+          <i class="bx bx-chevron-down"></i>
+        </li>
+        <li>
+          <img src="/assets/icons/enemiesIcon.png" />
+          Enemies
+          <i class="bx bx-chevron-down"></i>
+        </li>
+        <li>
+          <img src="/assets/icons/equipmentIcon.png" />
+          Equipment
+          <i class="bx bx-chevron-down"></i>
+        </li>
+        <li>
+          <img src="/assets/icons/itemIcon.png" />
+          Items
+          <i class="bx bx-chevron-down"></i>
+        </li>
+      </ul>
+    </nav>
+    <div class="main-container">
+      <div class="description-grid">
+        <div class="description-box" style="grid-column: 1/3">
+          <div class="description-title">
+            <img src="/assets/icons/healIcon.png" alt="" />
+            <h2>Creatures</h2>
+          </div>
+          <p>
+            Creatures and enemies in Elden Ring include the various beasts,
+            hostile NPCs, and supernatural beings that roam the Lands Between.
+            Players must face these foes to advance through the game, earn
+            Runes, and collect valuable items such as spells, weapons, and gear.
+          </p>
+        </div>
+      </div>
+      <img src="/assets/icons/elden-ring-border-leaf.png" class="divider" />
+      <div id="display-box"></div>
+    </div>
+    <!-- axios script  -->
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="/js/categories/creatures.js"></script>
+  </body>
+</html>
