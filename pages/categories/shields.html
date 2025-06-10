@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shields</title>
+    <link rel="stylesheet" href="/css/categories/shields.css" />
+  </head>
+  <body>
+    <img id="bg-img-one" src="/assets/images/MENU_Load_00009.png" />
+    <nav>
+      <a href="/pages/dashboard.html" class="nav-logo">
+        <img src="/assets/icons/sword.png" alt="" srcset="" />
+        <p>GraceKeeper</p>
+      </a>
+      <ul>
+        <li>
+          <img src="/assets/icons/characterIcon.png" />
+          Character
+          <i class="bx bx-chevron-down"></i>
+        </li>
+        <li>
+          <img src="/assets/icons/enemiesIcon.png" />
+          Enemies
+          <i class="bx bx-chevron-down"></i>
+        </li>
+        <li>
+          <img src="/assets/icons/equipmentIcon.png" />
+          Equipment
+          <i class="bx bx-chevron-down"></i>
+        </li>
+        <li>
+          <img src="/assets/icons/itemIcon.png" />
+          Items
+          <i class="bx bx-chevron-down"></i>
+        </li>
+      </ul>
+    </nav>
+    <div class="main-container">
+      <div class="description-grid">
+        <div class="description-box" style="grid-column: 1/3">
+          <div class="description-title">
+            <img src="/assets/icons/healIcon.png" alt="" />
+            <h2>Shields</h2>
+          </div>
+          <p>
+            Shields in Elden Ring are defensive equipment that come in a variety
+            of forms, each tailored to different playstyles and needs. They are
+            divided into three main categories: Small Shields, Medium Shields,
+            and Greatshields. <br /><br />Small Shields are lightweight and
+            excel at parrying, making them ideal for agile characters who
+            prioritize mobility over defense. <br /><br />Medium Shields offer a
+            balanced mix of protection and weight, suitable for those seeking
+            reliable blocking without sacrificing too much speed.
+            <br /><br />Greatshields provide the highest damage negation and
+            stability, perfect for players who focus on maximum defense, though
+            they come with significant weight and strength requirements. Each
+            shield type has its own strengths and trade-offs, allowing players
+            to choose the best fit for their build, whether prioritizing
+            blocking, parrying, or a combination of both
+          </p>
+        </div>
+      </div>
+      <img src="/assets/icons/elden-ring-border-leaf.png" class="divider" />
+      <div class="table-section">
+        <div class="table-section-title">
+          <!-- can add a search bar here maybe  -->
+          <h2>All Shields</h2>
+        </div>
+        <table id="data-table">
+          <tr class="table-header">
+            <td>Name</td>
+            <td>Category</td>
+            <td>Physical</td>
+            <td style="color: rgb(76, 157, 211)">Magic Def</td>
+            <td style="color: rgb(228, 74, 74)">Fire Def</td>
+            <td style="color: rgb(231, 220, 115)">Lightning Def</td>
+            <td style="color: rgb(223, 179, 113)">Holy Def</td>
+            <td style="color: rgb(66, 189, 87)">Boost</td>
+            <td>Weight</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+    <!-- axios script  -->
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="/js/categories/shields.js"></script>
+  </body>
+</html>
