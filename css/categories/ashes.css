@@ -143,6 +143,10 @@ nav li img {
   gap: 2rem;
 }
 
+ol li {
+  margin: 1rem 0;
+}
+
 /*-----------TABLE SECTION-----------*/
 #data-table {
   margin: 1rem 0;

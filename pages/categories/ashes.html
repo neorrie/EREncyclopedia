@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ashes of War</title>
+    <link rel="stylesheet" href="/css/categories/ashes.css" />
+  </head>
+  <body>
+    <img id="bg-img-one" src="/assets/images/MENU_Load_00009.png" />
+    <nav>
+      <a href="/pages/dashboard.html" class="nav-logo">
+        <img src="/assets/icons/sword.png" alt="" srcset="" />
+        <p>GraceKeeper</p>
+      </a>
+      <ul>
+        <li>
+          <img src="/assets/icons/characterIcon.png" />
+          Character
+          <i class="bx bx-chevron-down"></i>
+        </li>
+        <li>
+          <img src="/assets/icons/enemiesIcon.png" />
+          Enemies
+          <i class="bx bx-chevron-down"></i>
+        </li>
+        <li>
+          <img src="/assets/icons/equipmentIcon.png" />
+          Equipment
+          <i class="bx bx-chevron-down"></i>
+        </li>
+        <li>
+          <img src="/assets/icons/itemIcon.png" />
+          Items
+          <i class="bx bx-chevron-down"></i>
+        </li>
+      </ul>
+    </nav>
+    <div class="main-container">
+      <div class="description-grid">
+        <div class="description-box" style="grid-column: 1/3">
+          <div class="description-title">
+            <img src="/assets/icons/healIcon.png" alt="" />
+            <h2>Overview of Ashes of War</h2>
+          </div>
+          <p>
+            Ashes of War in Elden Ring are special items that allow players to
+            customize their weapons by changing both their active skills and
+            stat scaling. By equipping an Ash of War at a Site of Grace, you can
+            replace a weapon's default skill with a new, unique ability, such as
+            a powerful attack or defensive maneuver. Additionally, Ashes of War
+            let you modify a weapon's affinity, altering how it scales with
+            attributes like Strength, Dexterity, or Intelligence.
+          </p>
+        </div>
+        <div
+          class="description-box"
+          style="
+            grid-column: 1/3;
+            display: flex;
+            justify-content: space-between;
+          "
+        >
+          <div>
+            <div class="description-title">
+              <img src="/assets/icons/healIcon.png" alt="" />
+              <h2>How to use Ashes of War</h2>
+            </div>
+            <p>To use Ashes of War, follow these steps:</p>
+            <ol>
+              <li>
+                Obtain the Whetstone Knife – This is found early in the game at
+                the Gatefront Ruins. It’s required to apply Ashes of War.
+              </li>
+              <li>
+                Rest at a Site of Grace – Choose the "Ashes of War" option in
+                the menu.
+              </li>
+              <li>
+                Select a Weapon – Pick a weapon that is compatible with the Ash
+                of War you want to apply.
+              </li>
+              <li>
+                Choose the Ash of War – Assign the new skill and select an
+                affinity (e.g., Standard, Keen, Heavy, etc.), depending on what
+                the Ash allows.
+              </li>
+              <li>
+                Confirm the Change – Your weapon will now have the new skill and
+                scaling based on the selected affinity.
+              </li>
+            </ol>
+            <p>
+              Note: Special weapons (like boss weapons) usually cannot be
+              customized with Ashes of War.
+            </p>
+          </div>
+          <img src="/assets/images/fighting.png" />
+        </div>
+      </div>
+      <img src="/assets/icons/elden-ring-border-leaf.png" class="divider" />
+      <div class="table-section">
+        <div class="table-section-title">
+          <!-- can add a search bar here maybe  -->
+          <h2>All Ashes of War</h2>
+        </div>
+        <table id="data-table">
+          <tr class="table-header">
+            <td>Name</td>
+            <td>Skill</td>
+            <td>Skill Effect</td>
+            <td>Affinity</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+    <!-- axios script  -->
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="/js/categories/ashes.js"></script>
+  </body>
+</html>

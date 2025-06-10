@@ -2,7 +2,9 @@ const dataTable = document.getElementById("data-table");
 
 const loadData = async () => {
   try {
-    const response = await axios.get("https://eldenring.fanapis.com/api/ammos");
+    const response = await axios.get(
+      "https://eldenring.fanapis.com/api/ammos?limit=60"
+    );
     const ammoList = response.data.data;
 
     ammoList.forEach((ammoItem) => {
