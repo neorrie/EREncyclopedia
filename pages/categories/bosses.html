@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ashes of War</title>
+    <link rel="stylesheet" href="/css/categories/bosses.css" />
+  </head>
+  <body>
+    <img id="bg-img-one" src="/assets/images/MENU_Load_00009.png" />
+    <nav>
+      <a href="/pages/dashboard.html" class="nav-logo">
+        <img src="/assets/icons/sword.png" alt="" srcset="" />
+        <p>GraceKeeper</p>
+      </a>
+      <ul>
+        <li>
+          <img src="/assets/icons/characterIcon.png" />
+          Character
+          <i class="bx bx-chevron-down"></i>
+        </li>
+        <li>
+          <img src="/assets/icons/enemiesIcon.png" />
+          Enemies
+          <i class="bx bx-chevron-down"></i>
+        </li>
+        <li>
+          <img src="/assets/icons/equipmentIcon.png" />
+          Equipment
+          <i class="bx bx-chevron-down"></i>
+        </li>
+        <li>
+          <img src="/assets/icons/itemIcon.png" />
+          Items
+          <i class="bx bx-chevron-down"></i>
+        </li>
+      </ul>
+    </nav>
+    <div class="main-container">
+      <div class="description-grid">
+        <div class="description-box" style="grid-column: 1/3">
+          <div class="description-title">
+            <img src="/assets/icons/healIcon.png" alt="" />
+            <h2>Bosses</h2>
+          </div>
+          <p>
+            Elden Ring features a vast array of bosses that serve as key
+            challenges and milestones throughout the game. Bosses range from
+            major story-critical foes—such as shardbearers and demigods—to
+            optional encounters hidden in dungeons, caves, and remote regions of
+            the Lands Between. Each boss features unique designs, attack
+            patterns, and lore connections, often acting as guardians of
+            powerful items, runes, or plot progression. <br /><br />Boss fights
+            are known for their intensity, cinematic presentation, and
+            difficulty, often requiring players to study patterns, adapt
+            strategies, and optimize builds. Many bosses can be fought solo or
+            with the aid of Spirit Ashes, NPC summons, or online co-op. Some
+            bosses also appear in field encounters rather than in traditional
+            fog-gated arenas, contributing to the game's dynamic and
+            unpredictable world.
+          </p>
+        </div>
+        <div
+          class="description-box"
+          style="
+            grid-column: 1/3;
+            display: flex;
+            justify-content: space-between;
+          "
+        >
+          <div>
+            <div class="description-title">
+              <img src="/assets/icons/healIcon.png" alt="" />
+              <h2>Types of Bosses</h2>
+            </div>
+            <p>
+              Bosses in Elden Ring are categorized by their significance,
+              difficulty, and where they appear in the world. While the lines
+              can blur, they generally fall into the following types:
+            </p>
+            <ul>
+              <li>
+                Legendary Bosses: These are key story bosses and demigods
+                central to the main narrative. Defeating them is often required
+                to progress or reach specific endings.
+              </li>
+              <li>
+                Great Enemy Bosses: Powerful foes not always tied directly to
+                the main story, but still major encounters with unique arenas
+                and mechanics. They often drop significant rewards.
+              </li>
+              <li>
+                Field Bosses: Found roaming the open world or guarding key
+                areas, Field Bosses can often be fought on horseback and
+                sometimes respawn
+              </li>
+              <li>
+                Dungeon Bosses: Typically found at the end of small dungeons or
+                caves. They are usually easier and optional, but provide useful
+                items, weapons, or upgrade materials.
+              </li>
+              <li>
+                Evergaol Bosses: Trapped within magical arenas called Evergaols,
+                these bosses offer challenging one-on-one duels and unique loot.
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <img src="/assets/icons/elden-ring-border-leaf.png" class="divider" />
+      <div class="table-section">
+        <div class="table-section-title">
+          <!-- can add a search bar here maybe  -->
+          <h2>All Bosses</h2>
+        </div>
+        <table id="data-table">
+          <tr class="table-header">
+            <td>Name</td>
+            <td>Region</td>
+            <td>Description</td>
+            <td>Location</td>
+            <td>Drops</td>
+            <td>HP</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+    <!-- axios script  -->
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="/js/categories/bosses.js"></script>
+  </body>
+</html>
