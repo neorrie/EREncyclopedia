@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sorceries</title>
+    <link rel="stylesheet" href="/css/categories/sorceries.css" />
+  </head>
+  <body>
+    <img id="bg-img-one" src="/assets/images/MENU_Load_00009.png" />
+    <nav>
+      <a href="/pages/dashboard.html" class="nav-logo">
+        <img src="/assets/icons/sword.png" alt="" srcset="" />
+        <p>GraceKeeper</p>
+      </a>
+      <ul>
+        <li>
+          <img src="/assets/icons/characterIcon.png" />
+          Character
+          <i class="bx bx-chevron-down"></i>
+        </li>
+        <li>
+          <img src="/assets/icons/enemiesIcon.png" />
+          Enemies
+          <i class="bx bx-chevron-down"></i>
+        </li>
+        <li>
+          <img src="/assets/icons/equipmentIcon.png" />
+          Equipment
+          <i class="bx bx-chevron-down"></i>
+        </li>
+        <li>
+          <img src="/assets/icons/itemIcon.png" />
+          Items
+          <i class="bx bx-chevron-down"></i>
+        </li>
+      </ul>
+    </nav>
+    <div class="main-container">
+      <div class="description-grid">
+        <div class="description-box" style="grid-column: 1/3">
+          <div class="description-title">
+            <img src="/assets/icons/healIcon.png" alt="" />
+            <h2>Sorceries</h2>
+          </div>
+          <p>
+            Sorceries are a form of magic in Elden Ring that focus on
+            intelligence-based spellcasting. Often associated with glintstone
+            scholars and the Academy of Raya Lucaria, sorceries allow players to
+            harness arcane energy for ranged attacks, crowd control, buffs, and
+            utility effects. They require a staff to cast and scale primarily
+            with the Intelligence stat, making them ideal for magic-focused
+            builds.
+          </p>
+        </div>
+      </div>
+      <img src="/assets/icons/elden-ring-border-leaf.png" class="divider" />
+      <div class="table-section">
+        <div class="table-section-title">
+          <!-- can add a search bar here maybe  -->
+          <h2>All Sorceries</h2>
+        </div>
+        <table id="data-table">
+          <tr class="table-header">
+            <td>Name</td>
+            <td>Effects</td>
+            <td>Description</td>
+            <td>FP</td>
+            <td>Slots</td>
+            <td>INT</td>
+            <td>FAI</td>
+            <td>ARC</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+    <!-- axios script  -->
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="/js/categories/sorceries.js"></script>
+  </body>
+</html>
