@@ -4,7 +4,7 @@ A minimal web app that fetches and displays data from an Elden Ring API. Built u
 
 ## Project Motivation
 
-I’m a recent graduate with a strong interest in building user-friendly applications. This project was developed as part of my learning journey to deepen my frontend development skills and showcase my ability to work with RESTful APIs, handle DOM manipulation, and render dynamic content.
+I’m a recent graduate with a strong interest in building user-friendly applications. This project was developed as part of my learning journey to deepen my frontend development skills and learn to work with RESTful APIs, handle DOM manipulation, and render dynamic content.
 
 ## Learning Outcomes I set for this project
 
