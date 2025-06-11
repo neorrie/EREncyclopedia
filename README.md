@@ -32,7 +32,8 @@ I’m a recent graduate with a strong interest in building user-friendly applica
   Data retrieved from the unofficial [Elden Ring API](https://docs.eldenring.fanapis.com/). All data belongs to its respective creators and sources.
 
 ## Screenshots
+![Screenshot 2025-06-11 111608](https://github.com/user-attachments/assets/c8d0f92f-1ed8-4428-860f-6d56c2568ba7)
+![Screenshot 2025-06-11 112046](https://github.com/user-attachments/assets/f73a4317-6e8e-4166-832e-591784216c85)
 ![Screenshot 2025-06-11 112136](https://github.com/user-attachments/assets/e2ef4f4c-94ce-4e70-96c4-404a8c2ada25)
 ![Screenshot 2025-06-11 112117](https://github.com/user-attachments/assets/c1360d45-8c2e-420f-abd7-37c89e2bcbd2)
-![Screenshot 2025-06-11 112046](https://github.com/user-attachments/assets/f73a4317-6e8e-4166-832e-591784216c85)
-![Screenshot 2025-06-11 111608](https://github.com/user-attachments/assets/c8d0f92f-1ed8-4428-860f-6d56c2568ba7)
+
