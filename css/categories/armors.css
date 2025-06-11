@@ -93,22 +93,40 @@ nav ul {
   margin: 0;
 }
 
-nav li {
+.nav-item {
   display: flex;
   align-items: center;
+  position: relative;
   gap: 0.5rem;
-  padding: 1rem 0.5rem;
+  padding: 1rem 0;
+}
+
+i {
   cursor: pointer;
 }
 
-nav li:hover {
-  transition: all 250ms ease-in-out;
-  background-color: #000000;
+.nav-text {
+  margin: 0;
+  cursor: pointer;
 }
 
-nav li img {
-  max-width: 1.5rem;
-  max-height: 1.5rem;
+.sub-menu {
+  background-color: #27272a;
+  position: absolute;
+  top: 60px;
+  right: 2px;
+  width: 200px;
+  padding: 1rem;
+  border-radius: 0.2rem;
+  transition: all 250ms ease-in-out;
+}
+
+.sub-menu-text {
+  cursor: pointer;
+}
+
+hr {
+  border: 1px solid #3f3f46;
 }
 
 /*-----------DESCRIPTION SECTION-----------*/
