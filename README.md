@@ -2,6 +2,8 @@
 
 A minimal web app that fetches and displays data from an Elden Ring API. Built using HTML, CSS, and vanilla JavaScript, this project aims to replicate the core functionality of encyclopedic fan sites like Fextralife—presenting categorized game data in a clean, user-friendly format.
 
+Link to site: https://neorrie.github.io/EREncyclopedia/
+
 ## Project Motivation
 
 I’m a recent graduate with a strong interest in building user-friendly applications. This project was developed as part of my learning journey to deepen my frontend development skills and learn to work with RESTful APIs, handle DOM manipulation, and render dynamic content.
