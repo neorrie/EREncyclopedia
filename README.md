@@ -31,6 +31,12 @@ I’m a recent graduate with a strong interest in building user-friendly applica
 - **Elden Ring API**  
   Data retrieved from the unofficial [Elden Ring API](https://docs.eldenring.fanapis.com/). All data belongs to its respective creators and sources.
 
+## Future ideas & Developments
+- Create a search feature
+- Create a filtering feature (for example, filter weapons by different weapon types)
+- More detailed sections for each individual item
+- NavBar in between pages for ease of browsing (currently, each page is accessed through a central dashboard)
+
 ## Screenshots
 ![Screenshot 2025-06-11 111608](https://github.com/user-attachments/assets/c8d0f92f-1ed8-4428-860f-6d56c2568ba7)
 ![Screenshot 2025-06-11 112046](https://github.com/user-attachments/assets/f73a4317-6e8e-4166-832e-591784216c85)
